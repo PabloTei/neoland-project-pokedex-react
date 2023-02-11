@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6ea4bb;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 24px;
+    flex-direction: column;
+
+  }
+  
+  .TitleSection {
+    background-color: #6ea4bb;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e7e7e6;
+  }
+  
+  .TitleSection input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #5e98b1;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  .TitleSection button {
+    width: 180px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    color: #e7e7e6;
+    background-color: #006cbf
+  }
+  
+  .TitleSection button:hover {
+    cursor: pointer;
+  }
+
+  .DisplaySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+  }
+
+  .carta {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 3rem;
+    background-color: grey; 
+  }
+
+  .atributo {
+    margin: 10px;
+  }
+
+
+
